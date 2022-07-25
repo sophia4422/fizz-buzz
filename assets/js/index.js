@@ -25,3 +25,16 @@ const fizzBuzzAnswer = (value1, value2) => {
   }
   return returnValue;
 };
+
+//display the fizzbuzz function in the html
+
+const buzzIt = () => {
+  let output = "";
+
+  const val1 = document.getElementById("fizzValue").value;
+  const val2 = document.getElementById("buzzValue").value;
+
+  output = fizzBuzzAnswer(val1, val2);
+
+  document.getElementById("results").innerHTML = output;
+};
