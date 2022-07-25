@@ -11,16 +11,16 @@ const fizzBuzzAnswer = (value1, value2) => {
 
     //if both values are divisible by value1 (3) and value2 (5) return fizzbuzz
     if (i % value1 == 0 && i % value2 == 0) {
-      returnValue += "FizzBuzz ";
+      returnValue += "FizzBuzz, ";
       //if it is only divisible by value1 (3) return fizz
     } else if (i % value1 == 0) {
-      returnValue += "Fizz ";
+      returnValue += "Fizz, ";
       //if it is only divisible by value2 (5) return buzz
     } else if (i % value2 == 0) {
-      returnValue += "Buzz ";
+      returnValue += "Buzz, ";
     } else {
       //otherwise just return the number it is
-      returnValue += i + "";
+      returnValue += i + ", ";
     }
   }
   return returnValue;
