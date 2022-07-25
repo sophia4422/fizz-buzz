@@ -48,3 +48,11 @@ h1 {
   font-weight: 500;
   box-shadow: 2px 2px 5px #a23f01bd;
 }
+
+.social {
+  font-size: 32px;
+}
+
+.social a {
+  color: #fce6cf;
+}
