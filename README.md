@@ -14,7 +14,7 @@ Write a program that prints the numbers from 1 to 100. However, for any number t
 
 ## Deployed Page
 
-View the Fizz Buzz Project here:
+View the Fizz Buzz Project here: https://sophia4422.github.io/fizz-buzz/
 
 ## Screenshot
 
