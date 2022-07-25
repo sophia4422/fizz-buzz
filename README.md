@@ -18,7 +18,7 @@ View the Fizz Buzz Project here: https://sophia4422.github.io/fizz-buzz/
 
 ## Screenshot
 
-![](./assets/images/fizz-buzz.png)
+![](./assets/images/fizz-buzz-2.png)
 
 ## Contact Me
 
