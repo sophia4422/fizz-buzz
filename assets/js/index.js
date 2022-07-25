@@ -1,8 +1,8 @@
 //declare a function that takes in two parameters
+
 const fizzBuzzAnswer = (value1, value2) => {
   //this variable is set to an empty string
-  const returnValue = "";
-
+  let returnValue = "";
   //print out the numbers between 1 and 100 using a loop
 
   //start at 1, whilst i is less than 100, add one each time
