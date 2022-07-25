@@ -8,10 +8,16 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <section>
-      <div class="container">
+    <section class="container">
+      <div class="dimensions">
         <div>
           <h1>FizzBuzz Coding Challenge</h1>
 
@@ -23,20 +29,31 @@
           </p>
         </div>
 
-        <div>
-          <label
-            ><span>Enter a number:</span
-            ><input id="fizzValue" type="number" name="fizz" value="3"
+        <div class="container">
+          <label class="padding"
+            ><span>Enter a number: </span
+            ><input
+              id="fizzValue"
+              type="number"
+              name="fizz"
+              value="3"
+              class="text-box"
           /></label>
 
-          <label
-            ><span>Enter another number:</span
-            ><input id="buzzValue" type="number" name="buzz" value="5"
+          <label class="padding"
+            ><span>Enter another number: </span
+            ><input
+              id="buzzValue"
+              type="number"
+              name="buzz"
+              value="5"
+              class="text-box"
           /></label>
 
-          <label><span></span><input type="submit" value="Buzz It!" /></label>
-          <label><span>Results:</span></label
-          ><br />
+          <label class="padding"
+            ><span></span><input type="submit" value="Buzz It!" class="button"
+          /></label>
+          <label class="padding"><span>Results: </span></label><br />
           <p id="results"></p>
         </div>
       </div>

@@ -2,10 +2,49 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Barlow", sans-serif;
+  background-color: #ffa562;
+  color: #fce6cf;
+}
+
+h1 {
+  font-weight: 500;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 40px;
+}
+
+.dimensions {
+  width: 40vw;
+  height: auto;
+  background-color: #ff6818;
+  padding: 20px;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.text-box {
+  border: none;
+  color: #ff5500;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fce6cf;
+}
+
+.button {
+  padding: 12px;
+  background-color: #ffa562;
+  border: none;
+  color: #fce6cf;
+  font-weight: 500;
+  box-shadow: 2px 2px 5px #a23f01bd;
 }
